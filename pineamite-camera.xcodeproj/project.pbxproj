@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C2BB78952EC9AE1B00BD28E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BB787F2EC9AE1900BD28E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2BB78862EC9AE1900BD28E2;
+			remoteInfo = "pineamite-camera";
+		};
+		C2BB789F2EC9AE1B00BD28E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BB787F2EC9AE1900BD28E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2BB78862EC9AE1900BD28E2;
+			remoteInfo = "pineamite-camera";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2BB78872EC9AE1900BD28E2 /* pineamite-camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pineamite-camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BB78942EC9AE1B00BD28E2 /* pineamite-cameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pineamite-cameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BB789E2EC9AE1B00BD28E2 /* pineamite-cameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pineamite-cameraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C2BB78892EC9AE1900BD28E2 /* pineamite-camera */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "pineamite-camera";
+			sourceTree = "<group>";
+		};
+		C2BB78972EC9AE1B00BD28E2 /* pineamite-cameraTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "pineamite-cameraTests";
+			sourceTree = "<group>";
+		};
+		C2BB78A12EC9AE1B00BD28E2 /* pineamite-cameraUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "pineamite-cameraUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2BB78842EC9AE1900BD28E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BB78912EC9AE1B00BD28E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BB789B2EC9AE1B00BD28E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2BB787E2EC9AE1900BD28E2 = {
+			isa = PBXGroup;
+			children = (
+				C2BB78892EC9AE1900BD28E2 /* pineamite-camera */,
+				C2BB78972EC9AE1B00BD28E2 /* pineamite-cameraTests */,
+				C2BB78A12EC9AE1B00BD28E2 /* pineamite-cameraUITests */,
+				C2BB78882EC9AE1900BD28E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2BB78882EC9AE1900BD28E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BB78872EC9AE1900BD28E2 /* pineamite-camera.app */,
+				C2BB78942EC9AE1B00BD28E2 /* pineamite-cameraTests.xctest */,
+				C2BB789E2EC9AE1B00BD28E2 /* pineamite-cameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2BB78862EC9AE1900BD28E2 /* pineamite-camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BB78A82EC9AE1B00BD28E2 /* Build configuration list for PBXNativeTarget "pineamite-camera" */;
+			buildPhases = (
+				C2BB78832EC9AE1900BD28E2 /* Sources */,
+				C2BB78842EC9AE1900BD28E2 /* Frameworks */,
+				C2BB78852EC9AE1900BD28E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C2BB78892EC9AE1900BD28E2 /* pineamite-camera */,
+			);
+			name = "pineamite-camera";
+			packageProductDependencies = (
+			);
+			productName = "pineamite-camera";
+			productReference = C2BB78872EC9AE1900BD28E2 /* pineamite-camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2BB78932EC9AE1B00BD28E2 /* pineamite-cameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BB78AB2EC9AE1B00BD28E2 /* Build configuration list for PBXNativeTarget "pineamite-cameraTests" */;
+			buildPhases = (
+				C2BB78902EC9AE1B00BD28E2 /* Sources */,
+				C2BB78912EC9AE1B00BD28E2 /* Frameworks */,
+				C2BB78922EC9AE1B00BD28E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2BB78962EC9AE1B00BD28E2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C2BB78972EC9AE1B00BD28E2 /* pineamite-cameraTests */,
+			);
+			name = "pineamite-cameraTests";
+			packageProductDependencies = (
+			);
+			productName = "pineamite-cameraTests";
+			productReference = C2BB78942EC9AE1B00BD28E2 /* pineamite-cameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2BB789D2EC9AE1B00BD28E2 /* pineamite-cameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BB78AE2EC9AE1B00BD28E2 /* Build configuration list for PBXNativeTarget "pineamite-cameraUITests" */;
+			buildPhases = (
+				C2BB789A2EC9AE1B00BD28E2 /* Sources */,
+				C2BB789B2EC9AE1B00BD28E2 /* Frameworks */,
+				C2BB789C2EC9AE1B00BD28E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2BB78A02EC9AE1B00BD28E2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C2BB78A12EC9AE1B00BD28E2 /* pineamite-cameraUITests */,
+			);
+			name = "pineamite-cameraUITests";
+			packageProductDependencies = (
+			);
+			productName = "pineamite-cameraUITests";
+			productReference = C2BB789E2EC9AE1B00BD28E2 /* pineamite-cameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2BB787F2EC9AE1900BD28E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					C2BB78862EC9AE1900BD28E2 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					C2BB78932EC9AE1B00BD28E2 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C2BB78862EC9AE1900BD28E2;
+					};
+					C2BB789D2EC9AE1B00BD28E2 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C2BB78862EC9AE1900BD28E2;
+					};
+				};
+			};
+			buildConfigurationList = C2BB78822EC9AE1900BD28E2 /* Build configuration list for PBXProject "pineamite-camera" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2BB787E2EC9AE1900BD28E2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C2BB78882EC9AE1900BD28E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2BB78862EC9AE1900BD28E2 /* pineamite-camera */,
+				C2BB78932EC9AE1B00BD28E2 /* pineamite-cameraTests */,
+				C2BB789D2EC9AE1B00BD28E2 /* pineamite-cameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2BB78852EC9AE1900BD28E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BB78922EC9AE1B00BD28E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BB789C2EC9AE1B00BD28E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2BB78832EC9AE1900BD28E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BB78902EC9AE1B00BD28E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BB789A2EC9AE1B00BD28E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2BB78962EC9AE1B00BD28E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2BB78862EC9AE1900BD28E2 /* pineamite-camera */;
+			targetProxy = C2BB78952EC9AE1B00BD28E2 /* PBXContainerItemProxy */;
+		};
+		C2BB78A02EC9AE1B00BD28E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2BB78862EC9AE1900BD28E2 /* pineamite-camera */;
+			targetProxy = C2BB789F2EC9AE1B00BD28E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2BB78A62EC9AE1B00BD28E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M5X7U566DL;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2BB78A72EC9AE1B00BD28E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M5X7U566DL;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2BB78A92EC9AE1B00BD28E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5X7U566DL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibraiz.pineamite-camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2BB78AA2EC9AE1B00BD28E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5X7U566DL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibraiz.pineamite-camera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2BB78AC2EC9AE1B00BD28E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5X7U566DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibraiz.pineamite-cameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pineamite-camera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pineamite-camera";
+			};
+			name = Debug;
+		};
+		C2BB78AD2EC9AE1B00BD28E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5X7U566DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibraiz.pineamite-cameraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pineamite-camera.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pineamite-camera";
+			};
+			name = Release;
+		};
+		C2BB78AF2EC9AE1B00BD28E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5X7U566DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibraiz.pineamite-cameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pineamite-camera";
+			};
+			name = Debug;
+		};
+		C2BB78B02EC9AE1B00BD28E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5X7U566DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ibraiz.pineamite-cameraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pineamite-camera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2BB78822EC9AE1900BD28E2 /* Build configuration list for PBXProject "pineamite-camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BB78A62EC9AE1B00BD28E2 /* Debug */,
+				C2BB78A72EC9AE1B00BD28E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BB78A82EC9AE1B00BD28E2 /* Build configuration list for PBXNativeTarget "pineamite-camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BB78A92EC9AE1B00BD28E2 /* Debug */,
+				C2BB78AA2EC9AE1B00BD28E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BB78AB2EC9AE1B00BD28E2 /* Build configuration list for PBXNativeTarget "pineamite-cameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BB78AC2EC9AE1B00BD28E2 /* Debug */,
+				C2BB78AD2EC9AE1B00BD28E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BB78AE2EC9AE1B00BD28E2 /* Build configuration list for PBXNativeTarget "pineamite-cameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BB78AF2EC9AE1B00BD28E2 /* Debug */,
+				C2BB78B02EC9AE1B00BD28E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2BB787F2EC9AE1900BD28E2 /* Project object */;
+}
