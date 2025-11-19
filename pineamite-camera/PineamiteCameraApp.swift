@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct pineamite_cameraApp: App {
+struct PineamiteCameraApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CameraScreen()
         }
     }
 }
